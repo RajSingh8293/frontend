@@ -1,0 +1,33 @@
+.search_filter {
+  width: 100%;
+  padding: 4px 10px;
+  border: 1px solid #333;
+  border-radius: 6px;
+}
+
+.search_filter input {
+  border: 0;
+  outline: none;
+}
+input::placeholder {
+  font-size: 16px;
+}
+
+.fiter_items {
+  width: 100%;
+  padding: 4px 10px;
+  border: 1px solid #333;
+  border-radius: 6px;
+}
+
+.filter_select {
+  color: #333;
+  width: 100%;
+  /* padding: 4px 6px; */
+  border: 0;
+  outline: none;
+}
+.filter_select option {
+  padding: 4px 6px;
+  width: 100%;
+}

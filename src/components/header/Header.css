@@ -1,0 +1,71 @@
+.navigateToCart {
+  cursor: pointer;
+  position: relative;
+}
+
+.sticky_header {
+  /* position: sticky; */
+  width: 100%;
+  z-index: 99;
+}
+.nav_links {
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.cart {
+  width: 20px;
+  height: 20px;
+  color: #fff;
+}
+
+.cart_badge {
+  position: absolute;
+  top: -4px;
+  right: -15px;
+}
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.profile_page {
+  position: absolute;
+  background-color: #333;
+  color: #fff;
+  top: 100%;
+  left: 0;
+  z-index: 99;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  color: #fff;
+  transition: all 0.3 ease;
+}
+
+.profile_pageSow {
+  display: flex;
+}
+
+.user_details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.profile_img {
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+  background-color: azure;
+  padding: 2px;
+  border-radius: 50%;
+}
